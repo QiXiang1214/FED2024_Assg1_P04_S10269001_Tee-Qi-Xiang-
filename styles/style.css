@@ -185,3 +185,90 @@
     margin-bottom:20px;  
     text-decoration: none 
 }
+/*=================events page==============*/
+.body-events{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background-color:rgb(255, 6, 135);
+}
+
+.cheers{
+    font-family: "Bakbak One";
+    font-size: 46px;
+    color:white;
+    width:auto !important;
+    text-align: center;
+}
+
+.event-container {
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding:10px;
+}
+
+.event1 {
+    flex:1;
+    color:rgb(0, 0, 0);
+    max-width: 100%; 
+    height: auto;
+    background-image: url('../image/2-3-scaled.jpg');
+    background-size:cover ;
+    border-radius: 50px; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px; 
+}
+
+.event2 {
+    flex:1;
+    color:rgb(0, 0, 0);
+    max-width: 100%; 
+    height:auto;
+    background-image: url('../image/festival.jpeg');
+    background-size:cover ;
+    border-radius: 50px; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px; 
+}
+
+.shortform{
+    font-family: "Bakbak One";
+    font-size: 128px;
+    color: rgb(255, 255, 255);
+    text-align: start;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.event-name{
+    font-family: "Bakbak One";
+    font-size: 48px;
+    color:white; 
+    margin-top: 165px;
+    text-align:start;
+    margin-left: 20px;
+}
+
+.shortform2{
+    font-family: "Bakbak One";
+    font-size: 128px;
+    color: rgb(255, 255, 255);
+    text-align: start;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.event-name2{
+    font-family: "Bakbak One";
+    font-size: 48px;
+    color:white;
+    margin-top: 165px;
+    text-align:start;
+    margin-left: 20px; 
+}
