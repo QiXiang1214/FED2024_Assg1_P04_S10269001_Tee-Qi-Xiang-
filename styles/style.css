@@ -1,0 +1,30 @@
+.html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;   
+}
+
+.body-pinkfish{
+    padding:0;
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color:#000000;
+}
+
+.nav-bar {
+    font-family:Arial, sans-serif;
+    display:flex;
+    font-weight: bold;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    align-items: center;
+    width: auto;
+    padding: 10px;
+}
+
+.button{
+    color:white;
+    text-decoration: none;/* Remove underline */
+}
